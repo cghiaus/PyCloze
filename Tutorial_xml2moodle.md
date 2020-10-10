@@ -1,6 +1,6 @@
 # Moodle quiz with cloze questions generated in Python
 
-Author: [Christian Ghiaus](mailto:christian.ghiaus@insa-lyon.fr)
+Author: [Christian Ghiaus](mailto:cghiaus@gmail.com)
 
 [INSA Lyon](https://www.insa-lyon.fr), France, 2020
 
