@@ -53,7 +53,7 @@ U = {:NUMERICAL:} W/m2•K, thermal transmittance,
 
 R = {:NUMERICAL:} K/W, (absolute) thermal resistance,
 
-![$\varphi_{0,e}$](https://latex.codecogs.com/gif.latex?%5Cvarphi_%7B0%2Ce%7D) = {:NUMERICAL:} W/m2, heat flux,
+![][$\varphi_{0,e}$] = {:NUMERICAL:} W/m2, heat flux,
 
 ![$q_{0,e}$](https://latex.codecogs.com/gif.latex?q_%7B0%2Ce%7D) = {:NUMERICAL:} W, heat transfer rate.
 _______________
@@ -202,3 +202,7 @@ with minimum and maximim values of ![$h_a$](https://latex.codecogs.com/gif.latex
 [xml]:https://docs.moodle.org/39/en/Moodle_XML_format
 
 [random_q]:https://docs.moodle.org/39/en/Random_question_type
+
+[$\varphi_{0,e}$]:https://latex.codecogs.com/gif.latex?%5Cvarphi_%7B0%2Ce%7D
+
+
