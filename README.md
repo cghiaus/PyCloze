@@ -56,7 +56,7 @@ In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md)):
 ### Examples
 
 #### Description
-[Solutions2quizes.md](Solutions2quizes.md) presents three quizes:
+[Solutions2quizzes.md](Solutions2quizes.md) presents three quizzes:
 
 1. PyCloze00: given the names and the ages of three children, find the mean age, the eldest child and the longest name.
 2. PyCloze01: find the thermal resistance, the heat flux and the heat transfer rate of a flat wall. 
