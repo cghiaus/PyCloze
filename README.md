@@ -53,7 +53,7 @@ In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md)):
 
 [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md): on how to set up a quiz and import `.xml` random questions in **Moodle**.
 
-### Description of the examples
+### Examples
 [Solutions2quizes.md](Solutions2quizes.md) presents three quizes:
 
 1. PyCloze00: given the names and the ages of three children, find the mean age, the eldest child and the longest name.
