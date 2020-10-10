@@ -194,7 +194,7 @@ it results
 
 ![$$h_a = \frac{\lambda}{D} Nu$$](https://latex.codecogs.com/gif.latex?h_a%20%3D%20%5Cfrac%7B%5Clambda%7D%7BD%7D%20Nu)
 
-with minimum and maximim values of $h_a$ given by the values of $C$.
+with minimum and maximim values of ![$h_a$](https://latex.codecogs.com/gif.latex?h_a) given by the values of C.
 
 
 [Import_questions]:https://docs.moodle.org/39/en/Import_questions#Importing_questions_from_an_existing_file
