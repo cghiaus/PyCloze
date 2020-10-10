@@ -200,7 +200,7 @@ it results
 
 ![][$$h_a = \frac{\lambda}{D} Nu$$]
 
-with minimum and maximim values of ![$h_a$](https://latex.codecogs.com/gif.latex?h_a) given by the values of C.
+with minimum and maximim values of ![$h_i$](https://latex.codecogs.com/gif.latex?h_i) given by the values of C.
 
 
 [Import_questions]:https://docs.moodle.org/39/en/Import_questions#Importing_questions_from_an_existing_file
@@ -227,10 +227,10 @@ with minimum and maximim values of ![$h_a$](https://latex.codecogs.com/gif.latex
 
 [$$Nu = 0.023 Re^{0.8} Pr^{0.33}$$]:https://latex.codecogs.com/gif.latex?Nu%20%3D%200.023%20Re%5E%7B0.8%7D%20Pr%5E%7B0.33%7D
 
-[$$h_w = \frac{\lambda}{(D - 2 w)} Nu$$]:https://latex.codecogs.com/gif.latex?h_w%20%3D%20%5Cfrac%7B%5Clambda%7D%7B%28D%20-%202%20w%29%7D%20Nu
+[$$h_i = \frac{\lambda}{(D - 2 w)} Nu$$]:https://latex.codecogs.com/gif.latex?h_i%20%3D%20%5Cfrac%7B%5Clambda%7D%7B%28D%20-%202%20w%29%7D%20Nu
 
 [$$Gr = \frac{g \beta \rho^2 D^3}{\mu^2} (\theta_w - \theta_a)$$]:https://latex.codecogs.com/gif.latex?Gr%20%3D%20%5Cfrac%7Bg%20%5Cbeta%20%5Crho%5E2%20D%5E3%7D%7B%5Cmu%5E2%7D%20%28%5Ctheta_w%20-%20%5Ctheta_a%29
 
 [$$Nu = C (Gr Pr)^n$$]:https://latex.codecogs.com/gif.latex?Nu%20%3D%20C%20%28Gr%20Pr%29%5En
 
-[$$h_a = \frac{\lambda}{D} Nu$$]:https://latex.codecogs.com/gif.latex?h_a%20%3D%20%5Cfrac%7B%5Clambda%7D%7BD%7D%20Nu
+[$$h_o = \frac{\lambda}{D} Nu$$]:https://latex.codecogs.com/gif.latex?h_o%20%3D%20%5Cfrac%7B%5Clambda%7D%7BD%7D%20Nu
