@@ -171,7 +171,7 @@ Find the convective coeficient for water:
 
 ![][$$Nu = 0.023 Re^{0.8} Pr^{0.33}$$]
 
-![][$$h_w = \frac{\lambda}{(D - 2 w)} Nu$$]
+![][$$h_o = \frac{\lambda}{(D - 2 w)} Nu$$]
 
 Find the convective coeficient for air:
 
@@ -198,7 +198,7 @@ with
 
 it results
 
-![][$$h_a = \frac{\lambda}{D} Nu$$]
+![][$$h_i = \frac{\lambda}{D} Nu$$]
 
 with minimum and maximim values of ![$h_i$](https://latex.codecogs.com/gif.latex?h_i) given by the values of C.
 
