@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyCloze_000</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+John Smith has 3 children:
+Antoinette, 10.2,
+Lawrence, 12.9,
+Sebastian, 9.7.
+
+The mean age of the children is
+$$\mu$$ = {1:NUMERICAL:=10.9:0.55}.
+
+The eldest child is :
+{1:MULTICHOICE: Antoinette
+              ~= Lawrence
+              ~ Sebastian}.
+
+The child with the longest name is {1:SHORTANSWER:~=Antoinette}.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyCloze_001</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+John Smith has 3 children:
+Antoinette, 23.4,
+Lawrence, 12.5,
+Sebastian, 17.2.
+
+The mean age of the children is
+$$\mu$$ = {1:NUMERICAL:=17.7:0.89}.
+
+The eldest child is :
+{1:MULTICHOICE:= Antoinette
+              ~ Lawrence
+              ~ Sebastian}.
+
+The child with the longest name is {1:SHORTANSWER:~=Antoinette}.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyCloze_002</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+John Smith has 3 children:
+Antoinette, 4.9,
+Lawrence, 14.1,
+Sebastian, 8.5.
+
+The mean age of the children is
+$$\mu$$ = {1:NUMERICAL:=9.2:0.46}.
+
+The eldest child is :
+{1:MULTICHOICE: Antoinette
+              ~= Lawrence
+              ~ Sebastian}.
+
+The child with the longest name is {1:SHORTANSWER:~=Antoinette}.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyCloze_003</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+John Smith has 3 children:
+Anastasia, 10.2,
+Catherine, 12.9,
+Quentin, 9.7.
+
+The mean age of the children is
+$$\mu$$ = {1:NUMERICAL:=10.9:0.55}.
+
+The eldest child is :
+{1:MULTICHOICE: Anastasia
+              ~= Catherine
+              ~ Quentin}.
+
+The child with the longest name is {1:SHORTANSWER:~=Catherine}.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyCloze_004</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+John Smith has 3 children:
+Anastasia, 23.4,
+Catherine, 12.5,
+Quentin, 17.2.
+
+The mean age of the children is
+$$\mu$$ = {1:NUMERICAL:=17.7:0.89}.
+
+The eldest child is :
+{1:MULTICHOICE:= Anastasia
+              ~ Catherine
+              ~ Quentin}.
+
+The child with the longest name is {1:SHORTANSWER:~=Catherine}.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyCloze_005</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+John Smith has 3 children:
+Anastasia, 4.9,
+Catherine, 14.1,
+Quentin, 8.5.
+
+The mean age of the children is
+$$\mu$$ = {1:NUMERICAL:=9.2:0.46}.
+
+The eldest child is :
+{1:MULTICHOICE: Anastasia
+              ~= Catherine
+              ~ Quentin}.
+
+The child with the longest name is {1:SHORTANSWER:~=Catherine}.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+</quiz>
