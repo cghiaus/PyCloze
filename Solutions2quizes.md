@@ -71,11 +71,11 @@ This set of data will generate 2 x 1 x 2 x 1 x 3 = 12 questions from which one w
 ### Solution
 ![$$U = \frac{\lambda}{w}$$](https://latex.codecogs.com/gif.latex?U%20%3D%20%5Cfrac%7B%5Clambda%7D%7Bw%7D)
 
-$$R = \frac{1}{US}$$
+![$$R = \frac{1}{US}$$](https://latex.codecogs.com/gif.latex?R%20%3D%20%5Cfrac%7B1%7D%7BUS%7D)
 
-$$\varphi_{0e} = U (\theta_0 - \theta_w)$$
+![$$\varphi_{0e} = U (\theta_0 - \theta_w)$$](https://latex.codecogs.com/gif.latex?%5Cvarphi_%7B0e%7D%20%3D%20U%20%28%5Ctheta_0%20-%20%5Ctheta_w%29)
 
-$$q_{0e} = \frac{1}{R} (\theta_0 - \theta_w)$$
+![$$q_{0e} = \frac{1}{R} (\theta_0 - \theta_w)$$](https://latex.codecogs.com/gif.latex?q_%7B0e%7D%20%3D%20%5Cfrac%7B1%7D%7BR%7D%20%28%5Ctheta_0%20-%20%5Ctheta_w%29)
 
 
 ## Quiz PyCloze02.xml
@@ -104,13 +104,13 @@ Pipe
 
 Give the values of:
 
-$h_i$ = {:NUMERICAL:} W/m2 K, coefficient of convective exchange between
+h_i = {:NUMERICAL:} W/m2 K, coefficient of convective exchange between
 water and pipe.
 
-$h_{o, min}$ = {:NUMERICAL:} W/m2 K, minimum value of the convective exchange
+h_o,min = {:NUMERICAL:} W/m2 K, minimum value of the convective exchange
 coefficient of the pipe with the air.
 
-$h_{o, max}$ = {:NUMERICAL:} W/m2 K, maximum value of the convective exchange
+h_o,max = {:NUMERICAL:} W/m2 K, maximum value of the convective exchange
 coefficient of the pipe with the air.
 
 Fill in the sentence:
@@ -155,33 +155,33 @@ This set of data will generate 5 x 2 x 3 = 30 questions from which one will be r
 Find the convective coeficient for water:
 - Find Reynolds number for the water in the tube:
 
-$$Re = \frac{\rho v (D - 2 w)}{\mu}$$
+![$$Re = \frac{\rho v (D - 2 w)}{\mu}$$](https://latex.codecogs.com/gif.latex?Re%20%3D%20%5Cfrac%7B%5Crho%20v%20%28D%20-%202%20w%29%7D%7B%5Cmu%7D)
 
 - Find Prandtl number for water:
 
-$$Pr = \frac{\mu c}{\lambda}$$
+![$$Pr = \frac{\mu c}{\lambda}$$](https://latex.codecogs.com/gif.latex?Pr%20%3D%20%5Cfrac%7B%5Cmu%20c%7D%7B%5Clambda%7D)
 
-- If $0.7 \leq Pr \leq 160$ and $10000 \leq  Re  \leq 120000$, then:
+- If 0.7 < Pr < 160 and 10000 <  Re  < 120000, then:
 
-$$Nu = 0.023 Re^{0.8} Pr^{0.33}$$
+![$$Nu = 0.023 Re^{0.8} Pr^{0.33}$$](https://latex.codecogs.com/gif.latex?Nu%20%3D%200.023%20Re%5E%7B0.8%7D%20Pr%5E%7B0.33%7D)
 
-$$h_w = \frac{\lambda}{(D - 2 w)} Nu$$
+![$$h_w = \frac{\lambda}{(D - 2 w)} Nu$$](https://latex.codecogs.com/gif.latex?h_w%20%3D%20%5Cfrac%7B%5Clambda%7D%7B%28D%20-%202%20w%29%7D%20Nu)
 
 Find the convective coeficient for air:
 
-$$Pr = \frac{\mu c}{\lambda}$$
+![$$Pr = \frac{\mu c}{\lambda}$$](https://latex.codecogs.com/gif.latex?Pr%20%3D%20%5Cfrac%7B%5Cmu%20c%7D%7B%5Clambda%7D)
 
-$$Gr = \frac{g \beta \rho^2 D^3}{\mu^2} (\theta_w - \theta_a)$$
+![$$Gr = \frac{g \beta \rho^2 D^3}{\mu^2} (\theta_w - \theta_a)$$](https://latex.codecogs.com/gif.latex?Gr%20%3D%20%5Cfrac%7Bg%20%5Cbeta%20%5Crho%5E2%20D%5E3%7D%7B%5Cmu%5E2%7D%20%28%5Ctheta_w%20-%20%5Ctheta_a%29)
 
-If $10^3 < Gr < 10^9$, the flow is laminar;
+If 1e3 < Gr < 1e9, the flow is laminar;
 
-if $10^9 < Gr < 10^12$, the flow is turbulent;
+if 1e9 < Gr < 1e12, the flow is turbulent;
 
 otherwise, the corelations are not applicable.
 
 From
 
-$$Nu = C (Gr Pr)^n$$
+![$$Nu = C (Gr Pr)^n$$](https://latex.codecogs.com/gif.latex?Nu%20%3D%20C%20%28Gr%20Pr%29%5En)
 
 with
 
@@ -192,7 +192,7 @@ with
 
 it results
 
-$$h_a = \frac{\lambda}{D} Nu$$
+![$$h_a = \frac{\lambda}{D} Nu$$](https://latex.codecogs.com/gif.latex?h_a%20%3D%20%5Cfrac%7B%5Clambda%7D%7BD%7D%20Nu)
 
 with minimum and maximim values of $h_a$ given by the values of $C$.
 
