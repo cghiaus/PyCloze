@@ -26,7 +26,7 @@ Copy the `MoodleCloze.py` file in the folder in which you develop the cloze ques
 
 Typical workflow:
 
-In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md):
+In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md)):
 
 1.	Create and set up a quiz.
 2.	Create a category for the specific question of the quiz in the question bank.
