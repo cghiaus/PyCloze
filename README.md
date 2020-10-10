@@ -63,7 +63,7 @@ In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md)):
 
 ### Python examples
 
-`PyCloze00.py` a simple example with inputs of type string and numerical and outputs of type numerical, multichoice and short answers (discussed in [Tutorial_py2xml.md]()).
+`PyCloze00.py` a simple example with inputs of type string and numerical and outputs of type numerical, multichoice and short answers (discussed in [Tutorial_py2xml.md](Tutorial_py2xml.md)).
 
 `PyCloze01.py` an example with numerical inputs and numerical outputs.
 
