@@ -18,7 +18,7 @@ Convenctions used in the descriptions of the problems:
 - the input data is in **bold**,
 - the embedded answers are between { }.
 
-## Quiz PyCloze00.xml
+## Quiz PyCloze00
 
 ### Problem
 ______________________
@@ -46,7 +46,7 @@ The input data for the problem:
 
 This set of data will generate 2 x 3 = 6 combinations of inputs from which one will be randomly assigned to a student.
 
-## Quiz PyCloze01.xml
+## Quiz PyCloze01
 
 ### Problem
 ______________________
@@ -84,7 +84,7 @@ This set of data will generate 2 x 1 x 2 x 1 x 3 = 12 questions from which one w
 ![][$$q_{0e} = \frac{1}{R} (\theta_0 - \theta_w)$$]
 
 
-## Quiz PyCloze02.xml
+## Quiz PyCloze02
 
 ### Problem
 
