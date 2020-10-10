@@ -54,6 +54,8 @@ In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md)):
 [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md): on how to set up a quiz and import `.xml` random questions in **Moodle**.
 
 ### Examples
+
+#### Description
 [Solutions2quizes.md](Solutions2quizes.md) presents three quizes:
 
 1. PyCloze00: given the names and the ages of three children, find the mean age, the eldest child and the longest name.
@@ -61,7 +63,7 @@ In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md)):
 3. PyCloze02: find the coefficient of heat exchange in forced and in natural convection.
 
 
-### Python examples
+#### Python implementation
 
 `PyCloze00.py` a simple example with inputs of type string and numerical and outputs of type numerical, multichoice and short answers (discussed in [Tutorial_py2xml.md](Tutorial_py2xml.md)).
 
@@ -69,7 +71,7 @@ In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md)):
 
 `PyCloze02.py` a more complicated example.
 
-### .xml files
+#### .xml files
 
 `PyCloze00.xml` file generated with `PyCloze00.py`.
 
