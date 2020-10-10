@@ -55,7 +55,7 @@ R = {:NUMERICAL:} K/W, (absolute) thermal resistance,
 
 ![$\varphi_{0,e}$](https://latex.codecogs.com/gif.latex?%5Cvarphi_%7B0%2Ce%7D) = {:NUMERICAL:} W/m2, heat flux,
 
-¡[$q_{0,e}$](https://latex.codecogs.com/gif.latex?q_%7B0%2Ce%7D) = {:NUMERICAL:} W, heat transfer rate.
+![$q_{0,e}$](https://latex.codecogs.com/gif.latex?q_%7B0%2Ce%7D) = {:NUMERICAL:} W, heat transfer rate.
 _______________
 
 The input data for the problem:
@@ -104,13 +104,13 @@ Pipe
 
 Give the values of:
 
-h_i = {:NUMERICAL:} W/m2 K, coefficient of convective exchange between
+![$h_i$](https://latex.codecogs.com/gif.latex?h_i) = {:NUMERICAL:} W/m2 K, coefficient of convective exchange between
 water and pipe.
 
-h_o,min = {:NUMERICAL:} W/m2 K, minimum value of the convective exchange
+![$h_{o,min}$](https://latex.codecogs.com/gif.latex?h_%7Bo%2Cmin%7D) = {:NUMERICAL:} W/m2 K, minimum value of the convective exchange
 coefficient of the pipe with the air.
 
-h_o,max = {:NUMERICAL:} W/m2 K, maximum value of the convective exchange
+![$h_{o,max}$]() = {:NUMERICAL:} W/m2 K, maximum value of the convective exchange
 coefficient of the pipe with the air.
 
 Fill in the sentence:
