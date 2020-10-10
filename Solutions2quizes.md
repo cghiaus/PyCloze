@@ -4,7 +4,7 @@ Author: [Christian Ghiaus](mailto:christian.ghiaus@insa-lyon.fr)
 
 [INSA Lyon](https://www.insa-lyon.fr), France, 2020
 
-For a quick visualization and test of the quizes, [import][Import_questions] one of the `PyCloze__.xml` files in Moodle. See [Tutorial_xml2moodle.md]() for further details on how to create a quiz with [random questions][random_q] (i.e. questions different for each student).
+For a quick visualization and test of the quizes, [import][Import_questions] one of the `PyCloze__.xml` files in Moodle. See [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md) for further details on how to create a quiz with [random questions][random_q] (i.e. questions different for each student).
 
 To visualize a `PyCloze__.xml` file, open it with a browser. The file structure is according to [.xml format][xml].
 
