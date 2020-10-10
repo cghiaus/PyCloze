@@ -69,7 +69,7 @@ The input data for the problem:
 This set of data will generate 2 x 1 x 2 x 1 x 3 = 12 questions from which one will be randomly assigned to a student.
 
 ### Solution
-
+![U](https://latex.codecogs.com/gif.latex?U%20%3D%20%5Cfrac%7B%5Clambda%7D%7Bw%7D)
 $$U = \frac{\lambda}{w}$$
 
 $$R = \frac{1}{US}$$
