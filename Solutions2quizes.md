@@ -49,13 +49,13 @@ the heat transfer is in one direction and in steady state, without internal sour
 
 Give the values of:
 
-$U$ = {:NUMERICAL:} W/m2•K, thermal transmittance,
+U = {:NUMERICAL:} W/m2•K, thermal transmittance,
 
-$R$ = {:NUMERICAL:} K/W, (absolute) thermal resistance,
+R = {:NUMERICAL:} K/W, (absolute) thermal resistance,
 
-$\varphi_{0,e}$ = {:NUMERICAL:} W/m2, heat flux,
+![$\varphi_{0,e}$](https://latex.codecogs.com/gif.latex?%5Cvarphi_%7B0%2Ce%7D) = {:NUMERICAL:} W/m2, heat flux,
 
-$q_{0,e}$ = {:NUMERICAL:} W, heat transfer rate.
+¡[$q_{0,e}$](https://latex.codecogs.com/gif.latex?q_%7B0%2Ce%7D) = {:NUMERICAL:} W, heat transfer rate.
 _______________
 
 The input data for the problem:
