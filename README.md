@@ -35,7 +35,7 @@ In Python (see [Tutorial_py2xml.md](Tutorial_py2xml.md)):
 
 3.	Create or modify the questions and save them in an `.xml` file.
 
-In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md):
+In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md)):
 
 4.	Import the `.xml `file into the question bank in the category of the quiz corresponding to the type of question.
 5.	Preview the questions of a category in the question bank. If there are errors in the questions:
