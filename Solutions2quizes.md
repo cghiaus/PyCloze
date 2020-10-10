@@ -110,7 +110,7 @@ water and pipe.
 ![$h_{o,min}$](https://latex.codecogs.com/gif.latex?h_%7Bo%2Cmin%7D) = {:NUMERICAL:} W/m2 K, minimum value of the convective exchange
 coefficient of the pipe with the air.
 
-![$h_{o,max}$]() = {:NUMERICAL:} W/m2 K, maximum value of the convective exchange
+![$h_{o,max}$](https://latex.codecogs.com/gif.latex?h_%7Bo%2Cmax%7D) = {:NUMERICAL:} W/m2 K, maximum value of the convective exchange
 coefficient of the pipe with the air.
 
 Fill in the sentence:
