@@ -1,4 +1,4 @@
-# Description of quizes
+# Description of quizzes
 
 Author: [Christian Ghiaus](mailto:christian.ghiaus@insa-lyon.fr)
 
