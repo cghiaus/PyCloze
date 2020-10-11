@@ -1,10 +1,12 @@
 
 
 ---
-title: PyCloze
-author: [Christian Ghiaus](mailto:cghiaus@gmail.com)
-Date: 2020
+PyCloze
 ---
+
+author: [Christian Ghiaus](mailto:cghiaus@gmail.com)
+institution: [INSA Lyon](https://www.insa-lyon.fr), France
+date: 2020
 
 **PyCloze** is a procedure to obtain questions with embedded answers ([cloze][cloze]) for [Moodle][Moodle] learning management system. It needs basic knowledge of [Python 3](https://www.python.org) and [Moodle 3](https://docs.moodle.org/39/en/Main_page), and editting rights in Moodle. 
 
