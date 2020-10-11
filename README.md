@@ -11,6 +11,11 @@ Author: [Christian Ghiaus](mailto:cghiaus@gmail.com)
 
 The procedure allows us to generate a set of questions from which one will be [randomly assigned][random_q] by Moodle to a student. The problem is the same for all questions, but the input data and the responses are different from question to question. Therefore, the procedure is suited for exams and evaluations.
 
+Moodle random questions can be used for quizzes of:
+- 10 min. during lectures (especially video lectures) to check the comprehension of concepts;
+- 1 hour during seminaries to see the capacity of students to solve their own problem;
+- 2 hours for final exams.
+
 ## Licence
 Code is released under [MIT Lincence](https://choosealicense.com/licenses/mit/); docs are released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/) licence.
 
