@@ -1,8 +1,8 @@
-# PyCloze
+
 
 ---
-Author: [Christian Ghiaus](mailto:cghiaus@gmail.com)
-Institution[INSA Lyon](https://www.insa-lyon.fr), France
+title: PyCloze
+author: [Christian Ghiaus](mailto:cghiaus@gmail.com)
 Date: 2020
 ---
 
