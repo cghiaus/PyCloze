@@ -6,7 +6,7 @@
 
 **PyCloze** is a procedure to obtain questions with embedded answers ([cloze][cloze]) for [Moodle][Moodle] learning management system. It needs basic knowledge of [Python 3](https://www.python.org) and [Moodle 3](https://docs.moodle.org/39/en/Main_page), and editting rights in Moodle. 
 
-**MoodleCloze** is a Python module for creating embedded answers ([cloze][cloze]) questions for [Moodle](https://moodle.org/?lang=en) in [.xml format](https://docs.moodle.org/39/en/Moodle_XML_format). The [penalty factor][penalty] is fixed to 1/3 (but you can change it.)
+**MoodleCloze** is a Python module for creating embedded answers ([cloze][cloze]) questions for [Moodle](https://moodle.org/?lang=en) in [.xml format](https://docs.moodle.org/39/en/Moodle_XML_format). The [penalty factor][penalty] is fixed to 1/3 (but you can change it).
 
 The procedure allows us to generate a set of questions from which one will be [randomly assigned][random_q] by Moodle to a student. The problem is the same for all questions, but the input data and the responses are different from question to question. Therefore, the procedure is suited for exams and evaluations.
 
@@ -19,7 +19,7 @@ Moodle random questions can be used for quizzes of:
 Code is released under [MIT Lincence](https://choosealicense.com/licenses/mit/); docs are released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/) licence.
 
 ## Quick start
-[Import][Import_questions] one of the `PyCloze__.xml` files in Moodle to see cloze questions. See [Tutorial_xml2moodle.md][Tutorial_xml2moodle.md] for further details on how to create a quiz with [random questions][random_q].
+[Import][Import_questions] one of the `PyCloze__.xml` files in Moodle to see cloze questions. See [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md) for further details on how to create a quiz with [random questions][random_q].
 
 ## Installation
 
