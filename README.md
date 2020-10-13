@@ -18,7 +18,10 @@ Moodle random questions can be used for quizzes of:
 ## Licence
 Code is released under [MIT Lincence](https://choosealicense.com/licenses/mit/).
 
-[![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Docs are released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Docs are released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+[![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+[![MIT](https://www.deviantart.com/excaliburzero/art/MIT-License-Logo-595847140)
 
 ## Quick start
 [Import][Import_questions] one of the `PyCloze__.xml` files in Moodle to see cloze questions. See [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md) for further details on how to create a quiz with [random questions][random_q].
