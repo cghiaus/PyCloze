@@ -63,7 +63,7 @@ From `My course`:
 
 - Select the quiz *PyCloze*, **Question bank**, **[Import][Import_mdl]**.
 - In **File format**, chose **Moodle XML format**.
-- Attention: in **General**, select **Import category** *PyCloze random questions (6)*.
+- Attention: in **General**, select **Import category** *PyCloze random questions*.
 - In **Import questions from file**, drag & drop the file `PyCloze00.xml`, then push **Import** button.
 
 
