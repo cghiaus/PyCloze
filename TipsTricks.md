@@ -8,7 +8,7 @@ After a question was answered in Moodle, you cannot delete it but you can correc
 
 Always previsualize the test after importing it in Moodle. During the visualzation of the test in Moodle, check the answers of the test in  `Quiz administration / Question bank / Questions : Select category [adequate category]` by pusing the button `Fill in correct responses`. 
 
-*Python code §3 and §4*
+*PyCloze__.py §3 and §4*
 
 In §4, in `text`, use `$$` not `$` to include LaTex code.
 
