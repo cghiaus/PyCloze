@@ -23,8 +23,23 @@ ______________________________________
 8. [Optional] Show the inputs and the outputs for all questions`.
 ______________________________________
 
-
 This structure is discussed by going through a simple example, `PyCloze00.py`. Examples of other tests are given in `PyCloze01.py` and `PyCloze02.py`.
+
+______________________________________
+**Workflow for developing a new quiz**
+
+When creating a new quiz, the chain of operations is different of the order indicated in the Python code. It may be:
+
+1. Import modules
+5. Define the input space
+8. Show the inputs and outputs of all questions
+2. Create a function which solves the problem
+3. Define the mapping between the variables of the problem
+(input and outputs) and the variables of the text of the problem
+4. Write the text of the cloze question in Markdown
+6. Generate the quiz in Moodle - cloze format
+7. Save the quiz in an .xml file.
+______________________________________
 
 
 ## `PyCloze00.py`: walk through a simple example
