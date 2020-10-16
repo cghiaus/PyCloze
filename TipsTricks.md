@@ -14,10 +14,10 @@ After a question was answered in Moodle, you cannot delete it but you can correc
 
 Always previsualize the test after importing it in Moodle. During the visualzation of the test in Moodle, check the answers of the test in  `Quiz administration / Question bank / Questions : Select category [adequate category]` by pusing the button `Fill in correct responses`. 
 
-To insert an image from a web site:
+To insert an image from a web site in Moodle Markdown text:
 
 `<img src="(http://i.creativecommons.org/l/by/4.0/88x31.png)"
 alt="CC" width="584" hight="170"`
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg"
-alt="Python" width="584" hight="170">
+<img src="(http://i.creativecommons.org/l/by/4.0/88x31.png)"
+alt="CC" width="584" hight="170"
