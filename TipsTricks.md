@@ -10,14 +10,15 @@ Always previsualize the test after importing it in Moodle. During the visualzati
 
 *PyCloze__.py §3 and §4*
 
-Check the correspondece between variable mapping in  §3 `problem_text`and  the formatted variables from §4 `test`, e.g. `"name_1": x[0][0]` in `problem_text` in §3 and `%(name_1` in `text` in §4.
+Check the correspondece between variable mapping in  §3 `problem_text`and the formatted variables from §4 `test`, e.g. in PyCloze00.py, between `"name_1": x[0][0]` in `problem_text` in §3 and `%(name_1)s` in `text` in §4.
 
-In §4, in `text`, use `$$` not `$` to include LaTex code.
+In §4, in `text`, use `$$` not `$` to include LaTeX code.
 
-In §4 `text`, use two slashes for Greek letters; e.g. `$$\\varepsilon$$` not `$$\varepsilon$$`.
+In §4, in `text`, use two slashes for Greek letters; e.g. `$$\\varepsilon$$` not `$$\varepsilon$$`.
 
-You can use Greek letters for variables, e.g. λ2, θ. You can type them in IPython like \lambda followed by [TAB] or copy them from a text editor.
-To insert an image from a web site in Moodle Markdown in §4 `text`:
+You can use Greek letters for variables, e.g. λ2, θ. Type them in IPython like \lambda followed by [TAB] or copy them from a text editor.
+
+To insert an image from a web site in Moodle Markdown in §4 `text` write:
 
 `<img src="http://i.creativecommons.org/l/by/4.0/88x31.png"
 alt="CC" width="58" hight="17">`
