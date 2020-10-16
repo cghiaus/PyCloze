@@ -19,5 +19,5 @@ To insert an image from a web site in Moodle Markdown text:
 `<img src="(http://i.creativecommons.org/l/by/4.0/88x31.png)"
 alt="CC" width="584" hight="170">`
 
-<img src="(http://i.creativecommons.org/l/by/4.0/88x31.png)"
+<img src="http://i.creativecommons.org/l/by/4.0/88x31.png"
 alt="CC" width="584" hight="170">
