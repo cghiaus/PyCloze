@@ -21,7 +21,7 @@ You can use Greek letters for variables, e.g. λ2, θ. Type them in IPython like
 To insert an image from a web site in Moodle Markdown in §4 `text` write:
 
 `<img src="http://i.creativecommons.org/l/by/4.0/88x31.png"
-alt="CC" width="58" hight="17">`
+alt="CC" width="88" hight="31">`
 
 <img src="http://i.creativecommons.org/l/by/4.0/88x31.png"
 alt="CC" width="58" hight="17">
