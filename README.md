@@ -4,7 +4,7 @@
 - institution: [INSA Lyon](https://www.insa-lyon.fr), France
 - date: 2020
 
-**PyCloze** is a procedure to obtain questions with embedded answers ([cloze][cloze]) for [Moodle][Moodle] learning management system. It needs basic knowledge of [Python 3](https://www.python.org) and [Moodle 3](https://docs.moodle.org/39/en/Main_page), and editting rights in Moodle. 
+**PyCloze** is a procedure to obtain [calculated][calculated_q] questions with embedded answers ([cloze][cloze]) for [Moodle][Moodle] learning management system. It needs basic knowledge of [Python 3](https://www.python.org) and [Moodle 3](https://docs.moodle.org/39/en/Main_page), and editting rights in Moodle. 
 
 **MoodleCloze** is a Python module for creating embedded answers ([cloze][cloze]) questions for [Moodle](https://moodle.org/?lang=en) in [.xml format](https://docs.moodle.org/39/en/Moodle_XML_format). The [penalty factor][penalty] is fixed to 1/3 (but you can change it).
 
@@ -90,6 +90,8 @@ In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md)):
 
 `PyCloze02.xml` file generated with `PyCloze02.py`.
 
+
+[calculated_q]:https://docs.moodle.org/39/en/Calculated_question_type
 
 [cloze]:https://docs.moodle.org/39/en/Embedded_Answers_(Cloze)_question_type
 
