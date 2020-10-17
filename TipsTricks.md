@@ -1,5 +1,9 @@
 # Tips and Tricks
 
+- author: [Christian Ghiaus](mailto:cghiaus@gmail.com)
+- institution: [INSA Lyon](https://www.insa-lyon.fr), France
+- date: 2020
+
 *`.xml`file*
 
 Moodle does not check the .xml file; you can visualize it in a browser.
