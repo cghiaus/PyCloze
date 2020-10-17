@@ -32,7 +32,9 @@ alt="CC" width="58" hight="17">
 
 ## Grades, marks and points
 
-A quiz is composed of questions. Each question is composed of a number of answers.
+A quiz is composed of a number of questions. Each question is composed of a number of answers. A quiz has a grade, a question has a mark, and an answer has a number of points.
+
+### Grades
 
 A quiz has a **maximum grade**, e.g. 6, 10 or 20. 
 
@@ -40,10 +42,14 @@ To set the maximum grade of a quiz,
 - in `Home / My courses / ... My course`. select the quiz.
 - in `Administration / Quiz Administration / Edit quiz: Maximum grade`, type 6, 10 or 20[CR], and `Save`.
 
+### Marks
+
 Each question in the quiz has a number of **marks** that add up to the `Total of marks` of the quiz.
 To set the maximum marks for each question in the quiz,
-- in `Home / My courses / ... My course`, select the quiz.
+- in `Home / My courses / ... My course`. select the quiz.
 - in `Administration / Edit quiz`, type the marks for each question.
+
+### Points
 
 Each answer in a question has a number of **points** awarded. To check the number of points for a question,
 - in `Home / My courses / ... My course`, select the quiz.
