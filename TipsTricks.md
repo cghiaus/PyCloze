@@ -32,7 +32,7 @@ alt="CC" width="58" hight="17">
 
 ## Grades, marks and points
 
-A Moodle quiz is composed of a number of questions. Each question is composed of a number of answers. A quiz has a grade, a question has a mark, and an answer has a number of points.
+A Moodle quiz has at least on question. Each question has at least one embedded answer. A quiz has a grade, a question has a mark, and an answer has a number of points.
 
 ### Grades
 
