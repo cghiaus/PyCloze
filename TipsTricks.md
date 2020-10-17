@@ -50,7 +50,7 @@ Each answer in a question has a number of **points** awarded. To check the numbe
 - in `Administration / Edit quiz`, push the magnifier button on the line of the question.
 
 or
-- in `Home / My courses / ... My course`. select the quiz.
+- in `Home / My courses / ... My course`, select the quiz.
 - in `Administration / Quiz Administration / Question bank / Questions: Select a category`.
 - in `Edit: Preview`, the number of points is shown after `Marked out of`.
 
