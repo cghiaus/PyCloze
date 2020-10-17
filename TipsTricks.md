@@ -42,7 +42,7 @@ To set the maximum grade of a quiz,
 
 Each question in the quiz has a number of **marks** that add up to the `Total of marks` of the quiz.
 To set the maximum marks for each question in the quiz,
-- in `Home / My courses / ... My course`. select the quiz.
+- in `Home / My courses / ... My course`, select the quiz.
 - in `Administration / Edit quiz`, type the marks for each question.
 
 Each answer in a question has a number of **points** awarded. To check the number of points for a question,
