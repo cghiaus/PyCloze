@@ -29,3 +29,29 @@ alt="CC" width="88" hight="31">`
 
 <img src="http://i.creativecommons.org/l/by/4.0/88x31.png"
 alt="CC" width="58" hight="17">
+
+## Grades, marks and points
+
+A quiz is composed of questions. Each question is composed of a number of answers.
+
+A quiz has a **maximum grade**, e.g. 6, 10 or 20. 
+
+To set the maximum grade of a quiz,
+- in `Home / My courses / ... My course`. select the quiz.
+- in `Administration / Quiz Administration / Edit quiz: Maximum grade`, type 6, 10 or 20[CR], and `Save`.
+
+Each question in the quiz has a number of **marks** that add up to the `Total of marks` of the quiz.
+To set the maximum marks for each question in the quiz,
+- in `Home / My courses / ... My course`. select the quiz.
+- in `Administration / Edit quiz`, type the marks for each question.
+
+Each answer in a question has a number of **points** awarded. To check the number of points for a question,
+- in `Home / My courses / ... My course`. select the quiz.
+- in `Administration / Edit quiz`, push the magnifier button on the line of the quetion.
+
+or
+- in `Home / My courses / ... My course`. select the quiz.
+- in `Administration / Quiz Administration / Question bank / Questions: Select a category`.
+- in `Edit: Preview`, the number of points is shown after `Marked out of`.
+
+The points awarded for a correct answer are indicated in the embedded answer of the cloze question, e.g. {1:NUMERICAL:=20:2} means 1 point for the numerical answer 20 with an error of +/- 2 (see *§4 Write a text of the cloze question in Markdown* in [Tutorial_py2xml.md](Tutorial_py2xml.md)). The points can be only integers.
