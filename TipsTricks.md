@@ -46,7 +46,7 @@ To set the maximum marks for each question in the quiz,
 - in `Administration / Edit quiz`, type the marks for each question.
 
 Each answer in a question has a number of **points** awarded. To check the number of points for a question,
-- in `Home / My courses / ... My course`. select the quiz.
+- in `Home / My courses / ... My course`, select the quiz.
 - in `Administration / Edit quiz`, push the magnifier button on the line of the question.
 
 or
