@@ -8,7 +8,7 @@
 
 **MoodleCloze** is a Python module for creating embedded answers ([cloze][cloze]) questions for [Moodle](https://moodle.org/?lang=en) in [.xml format](https://docs.moodle.org/39/en/Moodle_XML_format). The [penalty factor][penalty] is fixed to 1/3 (but you can change it).
 
-The procedure allows us to generate a set of questions from which one will be [randomly assigned][random_q] by Moodle to a student. The problem is the same for all questions, but the input data and the responses are different from question to question. Therefore, the procedure is suited for exams and evaluations.
+The procedure allows us to generate a set of questions from which one will be [randomly assigned][random_q] by Moodle to a student. The problem is the same for all questions, but the input data and the answeres are different from question to question. Therefore, the procedure is suited for exams and evaluations.
 
 Moodle random questions can be used for quizzes of:
 - 10 min. during lectures (especially video lectures) to check the comprehension of concepts;
