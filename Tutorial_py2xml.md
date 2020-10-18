@@ -259,7 +259,7 @@ For variable `y[0] = 10.933333333333332`, it gives:
 |Field| Significance |
 |-----|--------------|
 |`{`    | Begin of the embedded answer.|
-|`1`    | Points awarded to the question. Can be only integers, e.g. 1, 3. See [TipsTricks](TipsTricks.md)|
+|`1`    | Points awarded to the question. Can be only integers, e.g. 1, 3. See [Tips&Tricks](Tips&Tricks.md)|
 |`:NUMERICAL:`| Type of question.|
 |=    | Precedes the right answer.|
 |%(mean_age)3.1f| Value of the right answer given by the variable `mean_age:y[0]` (see ` problem_text` and the **mapping** of variables). It is of format 3.1f, i.e. float of 3 digits of which 1 is after the decimal point.|
@@ -293,7 +293,7 @@ we obtain:
 |Field| Significance |
 |-----|--------------|
 |`{`    | Begin of the embedded answer.|
-|`1`    | Points awarded to the question. Can be only integers, e.g. 1, 3. See [TipsTricks](TipsTricks.md)|
+|`1`    | Points awarded to the question. Can be only integers, e.g. 1, 3. See [Tips&Tricks](Tips&Tricks.md)|
 |`:MULTICHOICE:`| Type of question.|
 |` %(oldest_1)s `| Is the 1st child the oldest? Value given by `oldest_1:y[1][0]`(see `problem_text` and the **mapping** table). It is of type `s` (i.e. `string`) and has the value ` "=" ` if the child is the oldest or ` "" ` otherwise.|
 |` %(name_1)s ` | Name of the 1st child. Value given by `"name_1": x[0][0]` (see `problem_text` and the **mapping** table).|
@@ -322,13 +322,13 @@ we obtain:
 |Field| Significance |
 |-----|--------------|
 |`{`    | Begin of the embedded answer.|
-|`1`    | Points awarded to the question. Can be only integers, e.g. 1, 3. See [TipsTricks](TipsTricks.md).|
+|`1`    | Points awarded to the question. Can be only integers, e.g. 1, 3. See [Tips&Tricks](Tips&Tricks.md).|
 |`:SHORTANSWER:`| Type of question.|
 |` ~ ` | Separates the answers.|
 |` = ` | Precedes the right answer.|
 |` } ` | End of the embedded answer.|
 
-**Note**: See [TipsTricks](TipsTricks.md) for a discussion on grades, marks and points in Moodle. 
+**Note**: See [Tips&Tricks](Tips&Tricks.md) for a discussion on grades, marks and points in Moodle. 
 
 ### 5. Define the input space
 
