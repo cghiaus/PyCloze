@@ -106,7 +106,7 @@ See the [Tutorial_py2xml.md](Tutorial_py2xml.md) to correct the questions in Pyt
 - **Add** and select **A random question**.
 - Select **Category** *PyCloze random questions (6)*.
 - Push **Add random question** button.
-- You can preview the questions by pushing the magnifier.
+- You can preview the questions by pushing **the magnifier**.
 - Select the mark for the question and the grade for the quiz. See [TipsTricks](TipsTricks.md) on grades, marks and points in Moodle. 
 - **Save** the quiz.
 
