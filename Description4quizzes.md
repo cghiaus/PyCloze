@@ -10,7 +10,7 @@ Three quizzes are presented:
 2. PyCloze01: find the thermal resistance, the heat flux and the heat transfer rate of a flat wall. 
 3. PyCloze02: find the coefficient of heat exchange in forced and in natural convection.
 
-For a quick visualization of the quizzes in Moodle, [import][Import_questions] one of the `PyCloze__.xml` files in Moodle. See [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md) for further details on how to create a quiz with [random questions][random_q] (i.e. questions different for each student).
+For a quick visualization of the quizzes, [import][Import_questions] one of the `PyCloze__.xml` files in Moodle. See [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md) for further details on how to create a quiz with [random questions][random_q] (i.e. questions different for each student).
 
 To visualize a `PyCloze__.xml` file, open it with a browser. The file structure is according to [.xml format][xml].
 
