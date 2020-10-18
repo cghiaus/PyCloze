@@ -62,7 +62,7 @@ In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md)):
 
 [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md): on how to set up a quiz and import `.xml` random questions in **Moodle**.
 
-[TipsTricks.md](TipsTricks.md): on useful advices and avoidable pitfalls.
+[Tips&Tricks.md](Tips&Tricks.md): on useful advices and avoidable pitfalls.
 
 ### Examples
 
