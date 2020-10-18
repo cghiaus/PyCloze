@@ -1,5 +1,7 @@
 # PyCloze
 
+[![DOI](https://zenodo.org/badge/302832801.svg)](https://zenodo.org/badge/latestdoi/302832801)
+
 - author: [Christian Ghiaus](mailto:cghiaus@gmail.com)
 - institution: [INSA Lyon](https://www.insa-lyon.fr), France
 - date: 2020
