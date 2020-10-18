@@ -15,8 +15,8 @@ For a quick visualization of the quizzes, [import][Import_questions] one of the 
 To visualize a `PyCloze__.xml` file, open it with a browser. The file structure is according to [.xml format][xml].
 
 Convenctions used in the descriptions of the problems: 
-- the input data is in **bold**,
-- the embedded answers are between { }.
+- input data is in **bold**,
+- embedded answers are between { }.
 
 ## Quiz PyCloze00
 
