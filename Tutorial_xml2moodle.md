@@ -2,17 +2,17 @@
 
 Author: [Christian Ghiaus](mailto:cghiaus@gmail.com)
 
-[INSA Lyon](https://www.insa-lyon.fr), France, 2020
+[INSA Lyon](https://www.insa-lyon.fr), France, 18/04/2021
 
-This tutorial shows how to create a quiz in [Moodle 3](https://docs.moodle.org/39/en/Main_page) with embedded answers ([cloze][cloze] question) imported as a [random question][random_q] from an `.xml` file generated in [Python 3](https://www.python.org).
+This tutorial shows how to create a quiz in [Moodle 3](https://docs.moodle.org/39/en/Main_page) with embedded answers (called [cloze][cloze] questions) imported as a [random question][random_q] from an `.xml` file generated in [Python 3](https://www.python.org).
 
 Requirements: 
-1. Acces to Moodle in editing mode.
-2. Availability of the file `PyCloze00.xml`.
+1. Acces to Moodle in [editing mode](https://moodle.com/news/lets-edit-moodle-course-minutes/).
+2. Availability of the file `PyClz00.xml`.
 
 ______________________________________
 **Typical workflow:**
-1. Create the questions in Python and save them in an `.xml` file.
+1. Create the questions in Python and save them in an `.xml` file (see [Tutorial_py2xml.md](Tutorial_py2xml.md)).
 2. Create and set up a **quiz** in Moodle.
 3. Create a **category** for the specific **question** of the **quiz** in the **question bank**.
 4. Import the `.xml` file into the **question bank** in the **category** of the quiz corresponding to the type of question.
@@ -28,7 +28,7 @@ In the following, the Moodle commands are in **bold** and the context in Moodle 
 
 ## 1. Create the questions in Python and save them in an .xml file
 
-See [Tutorial_py2xml.md](Tutorial_py2xml.md) to create the questions in Python and save them as `PyCloze00.xml` file. For this tutorial, use the file `PyCloze00.xml` as provided.
+See [Tutorial_py2xml.md](Tutorial_py2xml.md) to create the questions in Python and save them as `PyClz00.xml` file. For this tutorial, use the file `PyClz00.xml` as provided.
 
 ## 2. Create and set up a quiz in Moodle
 
@@ -57,9 +57,9 @@ See [Tutorial_py2xml.md](Tutorial_py2xml.md) to create the questions in Python a
 
 ## 4. Import the .xml file into the question bank in the corresponding category
 
-From `My course`:
-
 `Home / My courses / ... My course`
+
+From `My course`:
 
 - Select the quiz *PyCloze*, **Question bank**, **[Import][Import_mdl]**.
 - In **File format**, chose **Moodle XML format**.
