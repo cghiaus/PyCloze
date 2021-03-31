@@ -96,6 +96,7 @@ In Moodle (see [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md)):
 2. PyClz01: find the thermal resistance, the heat flux and the heat transfer rate of a flat wall. 
 3. PyClz02: find the coefficient of heat exchange in forced and in natural convection.
 
+*Note*: [Description4quizzes.md](Description4quizzes.md) is suited for visualisation in `GitHub`.  [Description4quizzes_LaTex.md](Description4quizzes_LaTex.md) is suited for visualisation in a Markdown reader. 
 
 #### Python implementation
 
