@@ -25,13 +25,13 @@ Docs are released under a [Creative Commons Attribution 4.0 International Licens
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 ## Differences between versions v.0.0.0 and v.0.1.0
-To tell Python where to substitute the values of the variables in `text` variable (of type string in `PyCloze__.py` or `PyClz__.py`):
+To tell Python where to substitute the values of the variables in `text` variable (of type string in `PyCloze__.py` or `PyClz__.py`), the function `generate_quiz`:
 
-- In v.0.0.0, the function `generate_quiz` from module `MoodleCloze.py` uses the “old style” string formatting ([% operator](https://realpython.com/python-string-formatting/#1-old-style-string-formatting-operator)). 
+- from module `MoodleCloze.py` in v.0.0.0 uses the “old style” string formatting ([% operator](https://realpython.com/python-string-formatting/#1-old-style-string-formatting-operator)). 
 
-- In v.0.1.0, the function `generate_quiz` from module `MdlClz.py` uses the “new style” string formating ([str.format](https://realpython.com/python-string-formatting/#2-new-style-string-formatting-strformat)). 
+- from module `MdlClz.py` in v.0.1.0 uses the “new style” string formating ([str.format](https://realpython.com/python-string-formatting/#2-new-style-string-formatting-strformat)). 
 
-Therefore, in v.0.0.0 there is the section `# 3. Define the mapping between the variables of the problem`. This mapping is no more needed (and used) in v.0.1.0.  There are changes in the specification of the variables in `text` (string in `PyCloze00.py` and `PyClz00.py`):
+In v.0.0.0, there is the section `# 3. Define the mapping between the variables of the problem`. This mapping is no more needed (and used) in v.0.1.0.  There are changes in the specification of the variables in `text` (string in `PyCloze00.py` and `PyClz00.py`):
 
 |`text` |`PyCloze00.py` (v.0.0.0) | `PyClz00.py` (v.0.1.0)|
 |-------|-------------------------|-----------------------|
