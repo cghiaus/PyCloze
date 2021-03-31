@@ -50,12 +50,12 @@ This set of data will generate 2 (name_list) x 3 (age_list) = 6 combinations of 
 
 ### Problem
 ______________________
-Let's consider a flat concrete wall of width **w** [m] and surface area **S** [m2]. The surfaces at x = 0 and at x = w are maintained at temperatures **θ0** [°C] and **θw** [°C]. It will be assumed that
+Let's consider a flat concrete wall of width **w** [m] and surface area **S** [m²]. The surfaces at x = 0 and at x = w are maintained at temperatures **θ0** [°C] and **θw** [°C]. It will be assumed that
 the heat transfer is in one direction and in steady state, without internal sources and that the thermal conductivity of concrete is **λ** [W/m·K].
 
 Give the values of:
 
-U = {:NUMERICAL:} W/m2·K, thermal transmittance,
+U = {:NUMERICAL:} W/m²·K, thermal transmittance,
 
 R = {:NUMERICAL:} K/W, (absolute) thermal resistance,
 
