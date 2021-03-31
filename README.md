@@ -25,7 +25,7 @@ Docs are released under a [Creative Commons Attribution 4.0 International Licens
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 ## Differences between versions v.0.0.0 and v.0.1.0
-To tell Python where to substitute the values of the variables in `text` variable (of type string in `PyCloze__.py` or `PyClz__.py`), the function `generate_quiz`:
+To tell Python where to substitute the values of the variables in `text`  (of type string in `PyCloze__.py` or `PyClz__.py`), the function `generate_quiz`:
 
 - from module `MoodleCloze.py` in v.0.0.0 uses the “old style” string formatting ([% operator](https://realpython.com/python-string-formatting/#1-old-style-string-formatting-operator)). 
 
