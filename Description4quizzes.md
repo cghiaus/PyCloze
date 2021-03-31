@@ -2,28 +2,28 @@
 
 Author: [Christian Ghiaus](mailto:cghiaus@gmail.fr)
 
-[INSA Lyon](https://www.insa-lyon.fr), France, 2020
+[INSA Lyon](https://www.insa-lyon.fr), France, 18/04/2020
 
 Three quizzes are presented:
 
-1. PyCloze00: given the names and the ages of three children, find the mean age, the eldest child and the longest name.
-2. PyCloze01: find the thermal resistance, the heat flux and the heat transfer rate of a flat wall. 
-3. PyCloze02: find the coefficient of heat exchange in forced and in natural convection.
+1. PyClz00: given the names and the ages of three children, find the mean age, the eldest child and the longest name.
+2. PyClz01: find the thermal resistance, the heat flux and the heat transfer rate of a flat wall. 
+3. PyClz02: find the coefficient of heat exchange in forced and in natural convection.
 
 For a quick visualization of the quizzes, [import][Import_questions] one of the `PyCloze__.xml` files in Moodle. See [Tutorial_xml2moodle.md](Tutorial_xml2moodle.md) for further details on how to create a quiz with [random questions][random_q] (i.e. questions different for each student).
 
-To visualize a `PyCloze__.xml` file, open it with a browser. The file structure is according to [.xml format][xml].
+To visualize a `PyClz__.xml` file, open it with a browser. The file structure is according to [.xml format][xml].
 
 Convenctions used in the descriptions of the problems: 
 - input data is in **bold**,
 - embedded answers are between { }.
 
-## Quiz PyCloze00
+## Quiz PyClz00
 
 ### Problem
 ______________________
-John Smith has 3 children: **name_1**, **age_1**, **name_2**, **age_2**,
-**name_3**, **age_3**. 
+John Smith has 3 children: **name_1**, age **age_1**, **name_2**, age **age_2**,
+**name_3**, age **age_3**. 
 
 The mean age of the children is μ ={:NUMERICAL:}.
 
@@ -44,33 +44,33 @@ The input data for the problem:
 |2.|23.4      |12.5     |17.2     |
 |3.|4.9       |14.1     |8.5      |
 
-This set of data will generate 2 x 3 = 6 combinations of inputs from which one will be randomly assigned to a student.
+This set of data will generate 2 (name_list) x 3 (age_list) = 6 combinations of inputs from which one will be randomly assigned to a student.
 
-## Quiz PyCloze01
+## Quiz PyClz01
 
 ### Problem
 ______________________
 Let's consider a flat concrete wall of width **w** [m] and surface area **S** [m2]. The surfaces at x = 0 and at x = w are maintained at temperatures **θ0** [°C] and **θw** [°C]. It will be assumed that
-the heat transfer is in one direction and in steady state, without internal sources and that the thermal conductivity of concrete is **λ** [W/m•K].
+the heat transfer is in one direction and in steady state, without internal sources and that the thermal conductivity of concrete is **λ** [W/m·K].
 
 Give the values of:
 
-U = {:NUMERICAL:} W/m2•K, thermal transmittance,
+U = {:NUMERICAL:} W/m2·K, thermal transmittance,
 
 R = {:NUMERICAL:} K/W, (absolute) thermal resistance,
 
-![][$\varphi_{0,e}$] = {:NUMERICAL:} W/m2, heat flux,
+![][$\varphi_{0,e}$] = {:NUMERICAL:} W/m², heat flux,
 
 ![][$q_{0,e}$] = {:NUMERICAL:} W, heat transfer rate.
 _______________
 
 The input data for the problem:
 
-    w = np.arange(0.10, 0.30, 0.10)     # width [m]
-    S = np.arange(20, 30, 10)           # surface area [m2]
-    θ0 = np.arange(0, -10, -5)          # temperature at x = 0 [°C]
-    θw = np.arange(20, 22, 2)           # temperature at x = w [°C]
-    λ = np.array([0.5, 1.0, 1.8])       # thermal conductivity [W/m•K]
+    w = np.arange(0.10, 0.30, 0.10)     # width [m] (2 values)
+    S = np.arange(20, 30, 10)           # surface area [m2] (1 value)
+    θ0 = np.arange(0, -10, -5)          # temperature at x = 0 [°C] (2 values)
+    θw = np.arange(20, 22, 2)           # temperature at x = w [°C] (1 value)
+    λ = np.array([0.5, 1.0, 1.8])       # thermal conductivity [W/m•K] (3 values)
 
 This set of data will generate 2 x 1 x 2 x 1 x 3 = 12 questions from which one will be randomly assigned to a student.
 
@@ -84,7 +84,7 @@ This set of data will generate 2 x 1 x 2 x 1 x 3 = 12 questions from which one w
 ![][$$q_{0e} = \frac{1}{R} (\theta_0 - \theta_w)$$]
 
 
-## Quiz PyCloze02
+## Quiz PyClz02
 
 ### Problem
 
@@ -97,10 +97,10 @@ Data
 
 Thermo-physical properties
 
-|Substance |T   |  λ |  μ |  ρ | c  |  β |
-|----------|----|----|----|----|----|----|
-|Water     | Tw | λw | μw | ρw | cw | βw |
-|Air       | Ta | λa | μa | ρa | ca | βa |
+|Substance |T [K]|λ [W/m·K]|μ [Pa·s]|ρ [kg/m³]|c [J/kg·K]|β [1/K]|
+|----------|-----|---------|--------|---------|----------|-------|
+|Water     | Tw  |    λw   |   μw   |    ρw   |     cw   |   βw  |
+|Air       | Ta  |    λa   |   μa   |    ρa   |     ca   |   βa  |
 
 Pipe
 
@@ -110,13 +110,13 @@ Pipe
 
 Give the values of:
 
-![$h_i$](https://latex.codecogs.com/gif.latex?h_i) = {:NUMERICAL:} W/m2 K, coefficient of convective exchange between
+![$h_i$](https://latex.codecogs.com/gif.latex?h_i) = {:NUMERICAL:} W/m²·K, coefficient of convective exchange between
 water and pipe.
 
-![$h_{o,min}$](https://latex.codecogs.com/gif.latex?h_%7Bo%2Cmin%7D) = {:NUMERICAL:} W/m2 K, minimum value of the convective exchange
+![$h_{o,min}$](https://latex.codecogs.com/gif.latex?h_%7Bo%2Cmin%7D) = {:NUMERICAL:} W/m²·K, minimum value of the convective exchange
 coefficient of the pipe with the air.
 
-![$h_{o,max}$](https://latex.codecogs.com/gif.latex?h_%7Bo%2Cmax%7D) = {:NUMERICAL:} W/m2 K, maximum value of the convective exchange
+![$h_{o,max}$](https://latex.codecogs.com/gif.latex?h_%7Bo%2Cmax%7D) = {:NUMERICAL:} W/m²·K, maximum value of the convective exchange
 coefficient of the pipe with the air.
 
 Fill in the sentence:
@@ -133,7 +133,7 @@ _______________
 
 Thermophysical properties:
 
-| |T[K] |    λ[W/m K] | μ[Pa s] |ρ[kg/m3] | c[J/kg K] |  β[1/K] |
+| |T[K] |   λ[W/m·K]  | μ[Pa·s] |ρ[kg/m³] | c[J/kg·K] |  β[1/K] |
 |-|-----|-------------|---------|---------|-----------|---------|
 |water|
 |1|330  |   0.650     |  489e-6 |     984 |      4184 | 504.0e-6|
@@ -191,7 +191,7 @@ From
 
 with
 
-|Flow type  |      C        |  n  |
+|Flow type |      C        |  n  |
 |----------|---------------|-----|
 |laminar   | 0.2 ... 0.6   | 1/4 |
 |turbulent | 0.07 ... 0.15 | 1/3 |
