@@ -70,7 +70,7 @@ The input data for the problem:
     S = np.arange(20, 30, 10)           # surface area [m2] (1 value)
     θ0 = np.arange(0, -10, -5)          # temperature at x = 0 [°C] (2 values)
     θw = np.arange(20, 22, 2)           # temperature at x = w [°C] (1 value)
-    λ = np.array([0.5, 1.0, 1.8])       # thermal conductivity [W/m•K] (3 values)
+    λ = np.array([0.5, 1.0, 1.8])       # thermal conductivity [W/m·K] (3 values)
 
 This set of data will generate 2 x 1 x 2 x 1 x 3 = 12 questions from which one will be randomly assigned to a student.
 
