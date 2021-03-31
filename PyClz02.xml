@@ -1,0 +1,3093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_000</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 330 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |330|0.650|4.890e-04|984|4184 |4.1840e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.022| 0.001|0.63|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=3641:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=4.2:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=12.7:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_001</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 330 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |330|0.650|4.890e-04|984|4184 |4.1840e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.035| 0.001|0.81|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4027:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.8:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=11.3:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_002</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 330 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |330|0.650|4.890e-04|984|4184 |4.1840e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.042| 0.001|0.89|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4179:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.6:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=10.8:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_003</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 330 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |330|0.650|4.890e-04|984|4184 |4.1840e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.022| 0.001|0.63|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=3641:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.1:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=9.4:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_004</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 330 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |330|0.650|4.890e-04|984|4184 |4.1840e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.035| 0.001|0.81|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4027:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=2.8:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=8.4:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_005</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 330 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |330|0.650|4.890e-04|984|4184 |4.1840e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.042| 0.001|0.89|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4179:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=2.7:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=8.0:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_006</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 340 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |340|0.660|4.200e-04|979|4188 |4.1880e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.022| 0.001|0.63|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=3936:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=4.3:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=13.0:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_007</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 340 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |340|0.660|4.200e-04|979|4188 |4.1880e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.035| 0.001|0.81|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4354:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.9:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=11.6:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_008</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 340 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |340|0.660|4.200e-04|979|4188 |4.1880e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.042| 0.001|0.89|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4517:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.7:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=11.1:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_009</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 340 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |340|0.660|4.200e-04|979|4188 |4.1880e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.022| 0.001|0.63|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=3936:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.4:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=10.1:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_010</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 340 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |340|0.660|4.200e-04|979|4188 |4.1880e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.035| 0.001|0.81|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4354:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.0:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=9.0:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_011</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 340 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |340|0.660|4.200e-04|979|4188 |4.1880e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.042| 0.001|0.89|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4517:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=2.9:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=8.6:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_012</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 350 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |350|0.668|3.650e-04|974|4195 |4.1950e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.022| 0.001|0.63|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4223:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=4.5:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=13.4:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_013</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 350 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |350|0.668|3.650e-04|974|4195 |4.1950e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.035| 0.001|0.81|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4672:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=4.0:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=11.9:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_014</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 350 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |350|0.668|3.650e-04|974|4195 |4.1950e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.042| 0.001|0.89|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4847:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.8:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=11.4:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_015</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 350 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |350|0.668|3.650e-04|974|4195 |4.1950e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.022| 0.001|0.63|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4223:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.6:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=10.7:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_016</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 350 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |350|0.668|3.650e-04|974|4195 |4.1950e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.035| 0.001|0.81|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4672:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.2:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=9.5:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_017</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 350 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |350|0.668|3.650e-04|974|4195 |4.1950e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.042| 0.001|0.89|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4847:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.0:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=9.1:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_018</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 360 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |360|0.674|3.240e-04|967|4203 |4.2030e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.022| 0.001|0.63|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4470:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=4.6:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=13.7:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_019</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 360 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |360|0.674|3.240e-04|967|4203 |4.2030e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.035| 0.001|0.81|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4945:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=4.1:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=12.2:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_020</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 360 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |360|0.674|3.240e-04|967|4203 |4.2030e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.042| 0.001|0.89|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=5131:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.9:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=11.7:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_021</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 360 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |360|0.674|3.240e-04|967|4203 |4.2030e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.022| 0.001|0.63|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4470:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.7:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=11.2:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_022</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 360 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |360|0.674|3.240e-04|967|4203 |4.2030e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.035| 0.001|0.81|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4945:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.3:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=10.0:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_023</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 360 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |360|0.674|3.240e-04|967|4203 |4.2030e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.042| 0.001|0.89|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=5131:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.2:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=9.5:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_024</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 365 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |365|0.677|3.060e-04|963|4209 |4.2090e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.022| 0.001|0.63|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4593:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=4.6:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=13.9:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_025</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 365 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |365|0.677|3.060e-04|963|4209 |4.2090e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.035| 0.001|0.81|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=5080:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=4.1:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=12.3:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_026</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 365 K,
+and the air temperature
+$$\theta_{air}$$ = 250 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |365|0.677|3.060e-04|963|4209 |4.2090e+03 |
+|Air      |250  |0.022  |1.596e-05  |  1  |1006   |1.0060e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.042| 0.001|0.89|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=5271:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.9:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=11.8:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_027</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 365 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |365|0.677|3.060e-04|963|4209 |4.2090e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.022| 0.001|0.63|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=4593:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.8:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=11.4:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_028</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 365 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |365|0.677|3.060e-04|963|4209 |4.2090e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.035| 0.001|0.81|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=5080:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.4:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=10.2:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz02_029</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+#Evaluation of convective exchange coefficients
+
+Let's consider a copper pipe in which a pump
+circulates water. The tube is in still air. It is considered
+that the temperature of the outer surface of the tube
+is almost equal to the temperature inside the tube.
+
+
+By using existing correlations for forced convection
+in the tube and for natural convection in the air
+(based on the Grashof number), find the values of the coefficients
+of convective exchange in the tube (water - tube) and outside of the tube
+(air - tube) for the water temperature in the pipe
+$$\theta_{water}$$ = 365 K,
+and the air temperature
+$$\theta_{air}$$ = 300 K.
+
+<br/>
+
+**Data**
+
+*Thermo-physical properties*
+
+|Substance|Temperature    |Conductivity   |	Viscosity     |	Density       | Specific heat  |Expansion coef.|
+|---------|---------------|---------------|--------------|---------------|----------------|---------------|
+|         |T [K]          |λ [W/m•K]      |μ [Pa•s]      | ρ [kg/m³]     | c [J/kg•K]     | β [1/K]       |
+|_________|_______________|_______________|______________|_______________|________________|_______________|
+|Water    |365|0.677|3.060e-04|963|4209 |4.2090e+03 |
+|Air      |300  |0.026  |1.846e-05  |  1  |1007   |1.0070e+03   |
+
+<br/>
+
+*Pipe*
+
+|Ext. diameter        | Width                | Water velocity      |
+|---------------------|----------------------|---------------------|
+| D [m]               | w [m]                | v [m/s]             |
+|_____________________|______________________|_____________________|
+|0.042| 0.001|0.89|
+
+<br/>
+
+**Give the values of:**
+
+$$h_i$$ = {1:NUMERICAL:=5271:10} (±10) $$\mathrm{W/m^2K}$$,
+coefficient of convective exchange between water and pipe.
+
+$$h_{o,min}$$ = {1:NUMERICAL:=3.2:1} (±1) $$\mathrm{W/m^2K}$$,
+minimum value of the convective exchange coefficient of the pipe with the air.
+
+$$h_{o,max}$$ = {1:NUMERICAL:=9.7:1} (±1) $$\mathrm{W/m^2K}$$,
+maximum value of the convective exchange coefficient of the pipe with the air.
+
+
+**Fill in the sentence:**
+
+The correlation used for forced convection in a tube is called the formula of
+{1:SHORTANSWER:=Colburn}
+
+**Choose the correct answer:**
+
+The type of air flow is {1:MULTICHOICE:undetermined
+                           ~= laminar
+                           ~ turbulent}
+
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+</quiz>

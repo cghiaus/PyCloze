@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_000</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.10 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = 0.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 0.50 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=5.00:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.010000:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-100.00:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-2000.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_001</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.10 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = 0.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 1.00 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=10.00:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.005000:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-200.00:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-4000.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_002</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.10 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = 0.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 1.80 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=18.00:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.002778:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-360.00:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-7200.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_003</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.10 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = -5.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 0.50 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=5.00:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.010000:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-125.00:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-2500.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_004</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.10 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = -5.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 1.00 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=10.00:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.005000:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-250.00:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-5000.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_005</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.10 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = -5.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 1.80 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=18.00:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.002778:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-450.00:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-9000.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_006</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.20 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = 0.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 0.50 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=2.50:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.020000:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-50.00:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-1000.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_007</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.20 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = 0.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 1.00 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=5.00:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.010000:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-100.00:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-2000.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_008</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.20 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = 0.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 1.80 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=9.00:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.005556:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-180.00:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-3600.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_009</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.20 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = -5.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 0.50 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=2.50:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.020000:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-62.50:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-1250.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_010</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.20 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = -5.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 1.00 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=5.00:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.010000:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-125.00:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-2500.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+
+  <question type="cloze">
+
+    <name>
+
+      <text>PyClz01_011</text>
+
+    </name>
+
+    <questiontext format="markdown">
+
+      <text>
+
+        <![CDATA[
+
+          
+Let's consider a flat concrete wall of width $$w$$ = 0.20 m
+and surface area $$S$$ = 20.00 m<sup>2</sup>.
+The surfaces at $$x$$ = 0 and at $$x = w$$ are maintained at temperatures
+$$\theta_0$$ = -5.0 °C and
+$$\theta_w$$ = 20.0 °C.
+It will be assumed that the heat transfer is in one direction and in steady
+state, without internal sources and that the thermal conductivity of medium
+concrete is
+$$\lambda$$ = 1.80 W/m·K.
+
+**Give the values of:**
+
+$$U$$ = {1:NUMERICAL:=9.00:0.5} (±0.5) W/m<sup>2</sup>K,
+thermal transmittance
+
+$$R$$ = {1:NUMERICAL:=0.005556:0.005} (±0.005) K/W,
+(absolute) thermal resistance,
+
+$$\varphi_{0,w}$$ = {1:NUMERICAL:=-225.00:10} (±10) W/m<sup>2</sup>,
+heat flux from $$x$$ = 0 to $$x = w$$,
+
+$$q_{0,w}$$ = {1:NUMERICAL:=-4500.00:100} (±100) W,
+heat transfer rate from $$x$$ = 0 to $$x = w$$.
+
+
+        ]]>
+
+      </text>
+
+     </questiontext>
+
+    <generalfeedback format="html">
+
+      <text></text>
+
+    </generalfeedback>
+
+    <penalty>0.333</penalty>
+
+    <hidden>0</hidden>
+
+    <idnumber></idnumber>
+
+  </question>
+
+</quiz>
