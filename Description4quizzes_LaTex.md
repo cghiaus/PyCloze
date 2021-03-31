@@ -44,7 +44,7 @@ The input data for the problem:
 |2.|23.4      |12.5     |17.2     |
 |3.|4.9       |14.1     |8.5      |
 
-This set of data will generate 2 x 3 = 6 combinations of inputs from which one will be randomly assigned to a student.
+This set of data will generate 2 (name_list) x 3 (age_list) = 6 combinations of inputs from which one will be randomly assigned to a student.
 
 ## Quiz PyClz01
 
@@ -111,13 +111,13 @@ Pipe
 
 Give the values of:
 
-$h_i$ = {:NUMERICAL:} W/m2 K, coefficient of convective exchange between
+$h_i$ = {:NUMERICAL:} W/m²·K, coefficient of convective exchange between
 water and pipe.
 
-$h_{o, min}$ = {:NUMERICAL:} W/m² K, minimum value of the convective exchange
+$h_{o, min}$ = {:NUMERICAL:} W/m²·K, minimum value of the convective exchange
 coefficient of the pipe with the air.
 
-$h_{o, max}$ = {:NUMERICAL:} W/m² K, maximum value of the convective exchange
+$h_{o, max}$ = {:NUMERICAL:} W/m²·K, maximum value of the convective exchange
 coefficient of the pipe with the air.
 
 Fill in the sentence:
