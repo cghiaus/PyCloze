@@ -200,7 +200,7 @@ it results
 
 ![][$$h_o = \frac{\lambda}{D} Nu$$]
 
-with minimum and maximim values of ![$h_i$](https://latex.codecogs.com/gif.latex?h_i) given by the values of C.
+The  minimum and maximim values of ![$h_o$](https://latex.codecogs.com/gif.latex?h_o) are given by considering the minimum and maximum values of C.
 
 
 [Import_questions]:https://docs.moodle.org/39/en/Import_questions#Importing_questions_from_an_existing_file
