@@ -159,7 +159,7 @@ The `text` consists of:
 
     The mean age of the children is $$\\mu$$ =
 
-*Note*: The control charatcer `\\` in `text` will become `\` in `.xml` file.
+*Note*: The control character `\\` in `text` will become `\` in `.xml` file.
 
 2. Formated text for input data, e.g.
 
