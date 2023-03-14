@@ -81,7 +81,7 @@ def generate_quiz(question_name, problem_fun, x_ranges, text):
     quiz += '\n</quiz>'
 
     xml_file_name = question_name + '.xml'
-    with open(xml_file_name, 'w') as MOODLE_cloze:
+    with open(xml_file_name, 'w', encoding="utf-8") as MOODLE_cloze:
         MOODLE_cloze.write(quiz)
 
     return quiz
